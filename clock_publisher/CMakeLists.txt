@@ -17,6 +17,7 @@ target_compile_features(clock_publisher PUBLIC c_std_99 cxx_std_17)  # Require C
 ament_target_dependencies(
   clock_publisher
   "rclcpp"
+  "rosgraph_msgs"
 )
 
 install(TARGETS clock_publisher
